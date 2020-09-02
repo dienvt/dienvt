@@ -67,7 +67,7 @@ func getWeatherInfo() (*weatherInfo, error) {
 }
 
 func convertToString(wi weatherInfo) string {
-	return fmt.Sprintf("This is weather where I live in : \n\n![icon.png](http://openweathermap.org/img/w/%s.png) *%s*\n\nDescription: %s\n", wi.Icon, wi.Main, wi.Description)
+	return fmt.Sprintf("This is weather in Ho Chi Minh city where I live in : \n\n![icon.png](http://openweathermap.org/img/w/%s.png) *%s*\n\nDescription: %s\n", wi.Icon, wi.Main, wi.Description)
 }
 
 func readMeDesc() string {
