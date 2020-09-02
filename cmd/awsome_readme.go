@@ -35,7 +35,7 @@ func main() {
 }
 
 func generateExtention() string {
-	s := "### Extension\n"
+	s := "\n### Extension\n"
 	wi, err := getWeatherInfo()
 	if err != nil {
 		return s
@@ -50,7 +50,7 @@ func generateExtention() string {
 }
 
 func getWeatherInfo() (*weatherInfo, error) {
-	resp, err := http.Get("https://samples.openweathermap.org/data/2.5/weather?id=1566083&appid=439d4b804bc8187953eb36d2a8c26a02")
+	resp, err := http.Get("https://samples.openweathermap.org/data/2.5/weather?id=1566083&appid=02565f166f92185daafde2f0d56d2f4e")
 	if err != nil {
 		fmt.Printf("The http request fail with err %s\n", err)
 		return nil, err
@@ -74,5 +74,5 @@ func readMeDesc() string {
 	return "### Hi there 👋\n" +
 		"I'm Võ Thành Điền\n" +
 		"- 🔭 I’m currently working on **VNG Corp**\n" +
-		"- 🌱 I’m currently learning **Golang** and clean architech"
+		"- 🌱 I’m currently learning **Golang**"
 }

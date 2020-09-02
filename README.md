@@ -1,6 +1,7 @@
 ### Hi there 👋
 I'm Võ Thành Điền
 - 🔭 I’m currently working on **VNG Corp**
+- 🌱 I’m currently learning **Golang** and clean architech
 ### Extension
 This is weather where I live in : 
 
@@ -9,4 +10,4 @@ This is weather where I live in :
 Description: scattered clouds
 
 
-**Last updated: 2020-08-29 17:24:43**
+**Last updated: 2020-09-02 10:23:09**
