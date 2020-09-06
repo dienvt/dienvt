@@ -37,13 +37,11 @@ func main() {
 func generateExtention() string {
 	s := "\n### Extension\n"
 	wi, err := getWeatherInfo()
-	if err != nil {
-		return s
+	if err == nil {
+		s += convertToString(*wi)
 	}
 
-	s += convertToString(*wi)
-
-	ltUpdate := fmt.Sprintf("\n\n**Last updated: %s**\n", time.Now().Format("2006-01-02 15:04:05"))
+	ltUpdate := fmt.Sprintf("\n\n**Last updated: %s**\n", getLocationTime())
 	s += ltUpdate
 
 	return s
@@ -75,4 +73,14 @@ func readMeDesc() string {
 		"I'm Võ Thành Điền\n" +
 		"- 🔭 I’m currently working on **VNG Corp**\n" +
 		"- 🌱 I’m currently learning **Golang**"
+}
+
+func getLocationTime() string {
+	tz := "Asia/Ho_Chi_Minh"
+	t := time.Now()
+	loc, err := time.LoadLocation(tz)
+	if err == nil {
+		return t.In(loc).Format("2006-01-02 15:04:05")
+	}
+	return t.Format("2006-01-02 15:04:05")
 }
