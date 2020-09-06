@@ -3,6 +3,7 @@
 name: CI
 
 on:
+  workflow_dispatch:
   # Invoke at every 30 minute
   schedule:
   - cron: "0/30 * * * *"
@@ -23,8 +24,8 @@ jobs:
           go-version: 1.13.14
 
       # Runs a single command using the runners shell
-      - name: Build execute file
-        run: go build cmd/awsome_readme.go
+      - name: Execute file
+        run: go run cmd/awsome_readme.go
 
       # Runs a set of commands using the runners shell
       - name: Update readme
