@@ -1,13 +1,6 @@
-### Hi there 👋
-I'm Võ Thành Điền
-- 🔭 I’m currently working on **VNG Corp**
-- 🌱 I’m currently learning **Golang**
-### Extension
-This is weather in Ho Chi Minh city where I live in : 
 
-![icon.png](http://openweathermap.org/img/w/03n.png) *Clouds*
+👋 Hi, I'm Điền. I'm a software engineer which also known as "dev cỏ" in my language.
 
-Description: scattered clouds
+I pretty good at swimming. Did you know why? because i alway let the water raise over my head.
 
-
-**Last updated: 2020-09-17 17:05:08**
+I also love running, run from my responsibility.
