@@ -1,11 +1,13 @@
+### Hi there 👋
+I am [dienvt](https://lucianonooijen.com/), a software engineer from 🇻🇳 
 
-👋 Hi, I'm Điền. I'm a software engineer which also known as "dev cỏ" in my language.
+I currently work at <img width="12" src="https://media.licdn.com/dms/image/v2/C560BAQFFf9x-m9KXRQ/company-logo_100_100/company-logo_100_100/0/1671447229023/andpad_vietnam_logo?e=1749081600&amp;v=beta&amp;t=Dv1xxlaCm0oVWgOHUvlvYuLyb6YcgEv9Dfm3cOsJ1Hg" loading="lazy" height="12" alt="" id="ember765" class="ivm-view-attr__img--centered EntityPhoto-square-3  update-components-actor__avatar-image evi-image lazy-image ember-view"> [Andpad Vietnam](https://www.linkedin.com/company/andpad-vietnam), where I work with work with Golang and Cloud-Native technologies. ☁️🚀
 
-cỏ: 
-+ negavive mean: grass, no value and can find anywhere
-+ positive mean: the plant that make you high
+### Software engineering
+<p float="left">
+    
+</p>
 
-
-I pretty good at swimming. Did you know why? because i alway let the water raise over my head. 🏊‍♂️🏊‍♂️🏊‍♂️
-
-I also love running (run from my responsibility. 🏃‍♂️🏃‍♂️🏃‍♂️)
+### 📫 How to reach me?
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/dienvt/) 🔗 <br />
+- Shoot Me an [Email](mailto:vtdien96@gmail.com) 💌 <br />
